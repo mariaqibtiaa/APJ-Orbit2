@@ -156,6 +156,18 @@ header {
     }
 }
 
+@media only screen and (max-width: 376px) {
+    .header-index{
+        font-family: "Jost", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.1;
+        margin-bottom: -100px;
+        margin-top: -50px;
+    }
+}
+
 .header-title {
     font-family: "Jost", sans-serif;
     font-size: 62px;
