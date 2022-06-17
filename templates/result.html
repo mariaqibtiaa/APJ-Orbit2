@@ -10,7 +10,7 @@
     </a>
   </div>
 
-  <table class="table table-hover container" style="font-family: Jost, sans-serif; background-color: #F5F5F5;">
+  <table class="table table-sm-responsive table-hover container" style="font-family: Jost, sans-serif; background-color: #F5F5F5;">
     <thead>
     <tr>
       <th scope="col">name</th>
@@ -28,7 +28,7 @@
           <td>{{ major['rating'] }}</td>
           <td>{{ major['category'] }}</td>
           <td>{{ major['income'] }}</td>
-          <td style="text-align:justify ;">{{ major['info'] }}</td>
+          <td class="infotd">{{ major['info'] }}</td>
         </tr>
       {% endfor %}
     {% endif %}

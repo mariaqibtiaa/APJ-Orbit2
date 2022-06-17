@@ -54,8 +54,20 @@ img {
 
 .home-container {
     padding-left: 125px;
-    margin:0 auto;
+    margin: 90px;
+    justify-content: center;
+    display: flex;
 }
+
+@media all and (max-width: 750px) {
+    .home-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 135px auto;
+
+    }
+}
+
 
 .index-color{
     background-color: #37517e;
@@ -65,15 +77,11 @@ img {
     margin:235px auto;
 }
 
-.center {
-    text-align: center;
+@media all and (max-width: 750px) {
+    .index-container {
+        margin:339px auto;
+    }
 }
-
-.isolated {
-    margin: 50px 50px;
-}
-
-
 
 /******************************/
 /*           NAVBAR           */
@@ -89,14 +97,6 @@ img {
     z-index: 10;
 }
 
-.navbar a {
-    color: #fff;
-    margin: 0 0 10px 0;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-}
-
 /* Navbar containers */
 
 .navbar-container {
@@ -109,22 +109,7 @@ img {
     margin-top: 10px;
 }
 
-.navbar-right {
-    margin-top: 0px;
-    float: right;
-}
-
 /* Left-side content */
-
-#logo-image {
-    float: left;
-    width: 30px;
-    height: 30px;
-}
-
-#logo-image svg {
-    stroke: orange;
-}
 
 #logo-name {
     float: right;
@@ -134,58 +119,6 @@ img {
     margin-left: 14px;
     margin-top: -2px;
 }
-
-/* Right-side content */
-
-.navbar-list {
- 	list-style-type: none;
-}
-
-.navbar-list li {
-    float: left;
- 	margin-left: 30px;
-}
-
-.navbar-list a {
-    text-decoration: none;
-    padding-bottom: 1px;
-}
-
-.navbar-list a:hover {
-    color: orange;
-}
-
-.menu-selected {
-    border-bottom: solid 2px orange;
-    color: orange;
-}
-
-
-.navbar-sublist {
-    display: none;
-    position: absolute;
-    background-color: rgba(255,255,255,0.95);
-    list-style-type: none;
-    margin-top: 0px;
-    margin-left: -10px;
-    border: 1px solid black;
-}
-
-.navbar-expand:hover > .navbar-sublist {
-    display: inherit;
-}
-
-.navbar-sublist li {
-    display: list-item;
-    min-width: 170px;
-    float:none;
-    position: relative;
-    margin-left: -20px;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 
 
 /******************************/
@@ -202,46 +135,7 @@ header {
     color: white;
 }
 
-/* Header style and image */
-
-.header-large {
-    /*min-height: 100%;
-    height: 100%;*/
-    height: 500px;
-}
-
-.header-small {
-    height: 550px;
-}
-
-.header-smaller {
-    height: 500px;
-}
-
-.mask {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-}
-
 /* Header content */
-
-.header-content {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    padding: 0px 50px;
-    text-align: center;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-}
-
-.header-content-inner {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1000px;
-}
 
 .header-index {
     font-family: "Jost", sans-serif;
@@ -251,47 +145,26 @@ header {
     margin-top: -50px;
 }
 
+@media all and (max-width: 750px) {
+    .header-index{
+        font-family: "Jost", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.1;
+        margin-bottom: -100px;
+        margin-top: -50px;
+    }
+}
+
 .header-title {
     font-family: "Jost", sans-serif;
     font-size: 62px;
     line-height: 1.1;
 }
 
-.header-subtitle {
-    font-size: 32px;
-    color: #ffe0b2;
-}
-
-/* Media Modifiers */
-
-@media all and (max-width: 750px) {
-    .header-large {
-        height: 450px;
-    }
-
-    .header-small {
-        height: 350px;
-    }
-
-    .header-smaller {
-        height: 300px;
-    }
-
-    .header-title {
-        font-size: 42px;
-    }
-}
-
-
-
 /******************************/
 /*        PAGE CONTENT        */
 /******************************/
-
-section {
-    color: rgba(20,20,20,1);
-    line-height: 1.6;
-}
 
 .page-container {
     max-width: 700px;
@@ -305,22 +178,10 @@ section {
     color: #37517e;
 }
 
-.text1:-ms-input-placeholder{
-	color: white;
-}
 
-.depan {
-    background-color: #209dd8;
-}
-
-section a {
-    color: #000;
-}
-
-section h1 {
-    text-align: center;
-}
-
+/******************************/
+/*           Kembali           */
+/******************************/
 
 .kembali {
     display: flex;
@@ -401,6 +262,10 @@ section h1 {
   .text:hover div::after {
     transform: translateX(-30px);
   }
+
+  .infotd{
+    text-align: justify;
+  }
 /******************************/
 /*           FOOTER           */
 /******************************/
@@ -424,29 +289,6 @@ footer {
     list-style-type: none;
 }
 
-/* Social icons */
-
-.social-link:hover .social-icon-background {
-    fill: rgba(255,183,77,0.9);
-}
-
-.social-icon {
-    width: 40px;
-    height: 40px;
-    margin: 0px 5px;
-}
-
-.social-icon-glyph {
-    fill: black;
-}
-
-.social-icon-background {
-    fill: white;
-    transition: fill 0.3s ease;
-}
-
-
-
 /******************************/
 /*          BUTTONS           */
 /******************************/
@@ -469,6 +311,26 @@ footer {
     background-color: #6567dd;
 }
 
+@media all and (max-width: 750px) {
+    .button-index {
+        font-family: "Jost", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        border-radius: 50px;
+        transition: 0.5s;
+        color: #fff;
+        background: #47b2e4;
+        position: relative;
+        left: 30%;
+        margin-bottom: -300px;
+    }
+    
+    .button-index:hover {
+        color: #000;
+        background-color: #6567dd;
+    }
+}
+
 .button-header {
     font-family: "Jost", sans-serif;
     font-weight: 500;
@@ -488,29 +350,21 @@ footer {
     background: #209dd8;
 }
 
-       /* Ukuran layar tablet minimal resolusi 768px */
-       @media (min-width: 768px) { 
-        .kolom{width: calc(100vw / 3 - 12px);}
-        h2{font-size: 13pt;}
-        p{font-size: 12pt}
-      }
-
-        /* Ukuran layar dekstop minimal resolusi 992px */
-      @media (min-width: 992px) { 
-        .kolom{width: calc(100vw / 4 - 18px);}
-        h2{font-size: 14pt;}
-        p{font-size: 12pt}
-      }
-
-        /* Ukuran layar besar minimal resolusi 1200px */
-      @media (min-width: 1200px) { 
-        .kolom{width: calc(100vw / 5 - 24px);}
-        h2{font-size: 19pt;}
-        p{font-size: 16pt}
-      }
-
-        /* Ukuran layar sangat besar minimal resolusi 1400px */
-      @media (min-width: 1400px) {
-        h2{font-size: 20pt;}
-        p{font-size: 18pt}
-      }
+@media all and (max-width: 750px) {
+    .button-header {
+        font-family: "Jost", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        border-radius: 50px;
+        transition: 0.5s;
+        color: #fff;
+        background: #47b2e4;
+        position:grid;
+        left: 32%;
+    }
+    
+    .button-header:hover {
+        color: #000;
+        background-color: #6567dd;
+    }
+}
