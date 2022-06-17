@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Aplikasi Penentu Jurusan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.ico') }}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/extras.css') }}">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body style="background-color: #f3f5fa ;">
+  <nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-left">
+                <div id="logo-name">Aplikasi Penentu Jurusan</div>
+        </div>
+    </div>
+</nav>
+
+{% block body %}{% endblock %}
+{% block result %}{% endblock %}
+
+
+</body>
+
+<footer>
+  <div class="page-container">
+      <ul class="footer-message">
+          <li>Kelompok NLP - Warrior Class - Foundations of AI and Life Skills for Gen-Z</li>
+          <li>2022. Orbit Future Academy</li>
+          <li>Maria - Fauzi - Apri - Juli</li>
+      </ul>
+  </div>
+</footer>
+
+</html>

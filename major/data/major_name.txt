@@ -1,0 +1,101 @@
+akuntansi,     akuntansi
+manajemen usaha pertanian,     manajemen usaha pertanian
+ilmu aktuaria,     ilmu aktuaria
+periklanan,     periklanan
+teknik pertanian dan biologi,     teknik pertanian dan biologi
+ekonomi pertanian,     ekonomi pertanian
+pertanian,     pertanian
+Ilmu hewan,     ilmu hewan
+antropologi,     anthropologi
+matematika terapan,     matematika terapan
+teknik arsitektur,     teknik arsitektur
+Arsitektur,     Arsitektur
+pendidikan seni,     pendidikan seni
+seni sejarah,     sejarah seni
+biokimia,    biokimia
+biofisika,     biofisika
+bioteknologi,    bioteknologi
+biologi,    biologi
+bioteknologi,    bioteknologi
+logistik bisnis,    logistik bisnis
+administrasi dan manajemen bisnis,     administrasi dan manajemen bisnis
+teknik kimia,    teknik kimia
+kimia,    kimia
+teknik sipil,    teknik sipil
+cognitive science and biopsychology,
+teknik komputer,     teknik komputer
+ilmu komputer,     ilmu komputer
+ilmu bumi,     ilmu bumi
+ekonomi,     ekonomi
+teknik elektro,     teknik elektro
+pendidikan dasar dan tk,     pendidikan dasar dan tk
+teknik sains,     teknik sains
+bahasa inggris,     bahasa inggris
+pengelolaan sumber daya lingkungan,     pengelolaan sumber daya lingkungan
+rekayasa sistem lingkungan,     rekayasa sistem lingkungan
+film dan video,     film dan video
+keuangan,     keuangan
+ilmu makanane,     ilmu makanan
+ilmu umum,     ilmu umum
+geografi,     geografi
+geosains,     geosains
+pendidikan kesehatan dan jasmani,     pendidikan kesehatan dan jasmani
+kebijakan dan administrasi kesehatan,     kebijakan dan administrasi kesehatan
+sejarah,     sejarah
+pengembangan manusia dan studi keluarga,     pengembangan manusia dan studi Keluarga
+studi individu dan keluarga,     studi individu dan keluarga
+teknik industri,     teknik industri
+ilmu dan teknologi informasi,     ilmu dan teknologi informasi
+jurnalistik,     jurnalistik
+arsitektur lansekap,     arsitektur lansekap
+nuclear engineering, nuclear engineering
+pemasaran,     pemasaran
+matematika,     matematika
+teknik mesin,     teknik mesin
+studi media,     studi media
+meteorologi,     meteorologi
+mikrobiologi,     mikrobiologi
+ekonomi mineral,     ekonomi mineral
+bahasa modern,     bahasa modern
+pendidikan musik,     pendidikan musik
+teknik nuklir,     teknik nuklir
+perawatan,     perawatan
+nutrisi,     nutrisi
+filsafat,     filsafat
+fisika,     fisika
+fisiologi,     fisiologi
+ilmu politik,     ilmu politik
+psikologi,     psikologi
+hubungan masyarakat,     hubungan masyarakat
+rekreasi dan taman,     rekreasi dan taman
+studi agama,     studi agama
+guru sekolah menegah atas,     guru sekolah menegah atas
+pekerjaan sosial,     pekerjaan sosial
+sosiologi,     sosiologi
+pendidikan luar biasa,     pendidikan luar biasa
+komunikasi,     komunikasi
+statistik,     statistik
+seni studio,     seni studio
+telekomunikasi,   telekomunikasi
+biosains hewan,     biosains hewan
+arkeologi,     arkeologi
+kesehatan biobehavioral,     kesehatan biobehavioral
+kejahatan hukum dan keadilan,     kejahatan hukum dan keadilan
+menari,     menari
+ilmu lingkungan,     ilmu lingkungan 
+ilmu kehutanan,     ilmu kehutanan
+teknologi kehutanan,     teknologi kehutanan
+desain grafis dan fotografi,     desain grafis dan fotografi
+hortikultura,     hortikultura
+manajemen hotel,     manajemen hotel
+kinesiologi,     kinesiologi
+penegakan hukum dan koreksi,     penegakan hukum dan koreksi
+biologi kelautan,     biologi kelautan
+pra-pengobatan,     pra-pengobatan
+perumahan,     perumahan
+layanan rehabilitasi,     layanan rehabilitasi
+patologi bicara dan audiologi,     patologi bicara dan audiologi
+pertunjukan teater,     pertunjukan teater
+ilmu satwa liar dan perikanan,     ilmu satwa liar dan perikanan
+teknologi satwa liar,     teknologi satwa liar
+studi wanita,     studi wanita

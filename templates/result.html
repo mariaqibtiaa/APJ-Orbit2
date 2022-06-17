@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block result %}
+
+  <div class="kembali">
+    <a href="#" class="text" onclick="history.back(-1)">
+      <div></div>
+      <h4>Go Back...</h4>
+      <span>Back to homepage</span>
+    </a>
+  </div>
+
+  <table class="table table-hover container" style="font-family: Jost, sans-serif; background-color: #F5F5F5;">
+    <thead>
+    <tr>
+      <th scope="col">name</th>
+      <th scope="col">rating</th>
+      <th scope="col">category</th>
+      <th scope="col">income</th>
+      <th scope="col">Info</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% if majors %}
+      {% for major in majors %}
+        <tr>
+          <th>{{ major['name'] }}</th>
+          <td>{{ major['rating'] }}</td>
+          <td>{{ major['category'] }}</td>
+          <td>{{ major['income'] }}</td>
+          <td style="text-align:justify ;">{{ major['info'] }}</td>
+        </tr>
+      {% endfor %}
+    {% endif %}
+    </tbody>
+  </table>
+{% endblock %}

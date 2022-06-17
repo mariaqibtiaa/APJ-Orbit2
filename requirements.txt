@@ -1,0 +1,7 @@
+flask==0.12.2
+numpy==1.15.4
+gunicorn
+Jinja2==2.10
+flask_flatpages
+frozen_flask
+pygments

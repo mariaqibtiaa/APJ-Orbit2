@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+     {% block body %}
+
+    <div class="home-container d-flex justify-content-center col-md-10" style="margin: 85px">
+      <form method="post" action="/result" style="width: 75%;">
+        <p class="mb-0">Jelaskan kelebihan dan harapan Anda untuk jurusan <strong>(Wajib)</strong> </p>
+        <input type="text" name="description" value="aku suka teknik dan artikel." required style="width:  100%;">
+
+        <p class="mb-0">Gaji Bulanan Minimum yang Diharapkan Setelah Lulus Perguruan Tinggi <strong>(Opsional)</strong></p>
+        <input type="number" name="income" min="3000000" placeholder="Rupiah">
+        <p class="mb-0 mt-2">Silakan pilih paling banyak satu kategori pilihan <strong>(Opsional)</strong></p>
+        <select class="custom-select" id="category" name="category">
+        <option value="" selected>Pilih Kategori</option>
+          {%  if categories %}
+            {% for category in categories %}
+              <option value="{{ category }}">{{ category }}</option>
+            {% endfor %}
+          {% endif %}
+        </select>
+
+        <button type="submit" class="btn button-header mt-5">Cari Rekomendasi Jurusan</button>
+      </form>
+      </div>
+{% endblock %}
