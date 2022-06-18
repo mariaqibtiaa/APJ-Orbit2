@@ -9,15 +9,15 @@
       <span>Back to homepage</span>
     </a>
   </div>
-
-  <table class="table table-sm-responsive table-hover container" style="font-family: Jost, sans-serif; background-color: #F5F5F5;">
+  <div style="overflow-x:auto;">
+  <table class="table table-sm-responsive table-hover container" style="font-family: Jost, sans-serif; background-color: #F5F5F5; width: 900px;">
     <thead>
     <tr>
-      <th scope="col">name</th>
-      <th scope="col">rating</th>
-      <th scope="col">category</th>
-      <th scope="col">income</th>
-      <th scope="col">Info</th>
+      <th scope="col" style="width: 100px;">name</th>
+      <th scope="col" style="width: 100px;">rating</th>
+      <th scope="col" style="width: 50px;">category</th>
+      <th scope="col" style="width: 100px;">income</th>
+      <th scope="col" style="width: 550px;">Info</th>
     </tr>
     </thead>
     <tbody>
@@ -28,10 +28,11 @@
           <td>{{ major['rating'] }}</td>
           <td>{{ major['category'] }}</td>
           <td>{{ major['income'] }}</td>
-          <td class="infotd">{{ major['info'] }}</td>
+          <td style="text-align: justify;">{{ major['info'] }}</td>
         </tr>
       {% endfor %}
     {% endif %}
     </tbody>
   </table>
+  </div>
 {% endblock %}
